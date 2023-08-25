@@ -6,10 +6,10 @@ Quando facciamo scorrere il kernel su ogni singolo pixel della immagine nella im
 
 ![convolution](images/convolution.png)
 
-In the image above it is clear that the first pixel at the coordinates `(0,0)` has been assigned the value `114` due to the following calculation:
+In the image above it is clear that the first pixel at the coordinates `(0,0)` has been assigned the value `114` due to the following calculation:  
 
 $$
-0*0 + 0*(-1) + 0*0 + 0*(-1) + 60*5 + 113*(-1) + 0*0 + 73*(-1) + 121*0 =
+0\bullet0 + 0\bullet(-1) + 0\bullet0 + 0\bullet(-1) + 60\bullet5 + 113\bullet(-1) + 0\bullet0 + 73\bullet(-1) + 121\bullet0 =
 $$
 
 $$
@@ -92,7 +92,7 @@ This class of filters is useful for detecting diagonal edges, the easiest ones t
 | 0 | -1 |
 | 1 | 0 |
 
-However, there are also gradient operators based on **Prewitt** and **Sobel***:
+However, there are also gradient operators based on **Prewitt** and **Sobel**:
 
 #### Prewitt Filter ($g_x$)
 | | | |
