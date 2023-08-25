@@ -1,6 +1,6 @@
 # OpenCV - Read/Write the image
 #
-# @author Emilio Garzia, 2023
+# @author Emilio Garzia, 2023  
 
 import cv2
 import argparse as ap
