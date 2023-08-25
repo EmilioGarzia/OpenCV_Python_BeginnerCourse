@@ -9,6 +9,6 @@ The Python community has also brought OpenCV to python and in this course we wil
 ## HOW TO INSTALL OPENCV ON YOUR PC
 
 Open your **terminal** or **prompt** *(for Windows users)* and install OpenCV with ***pip*** package manager:
-´pip install opencv-python´
+`pip install opencv-python`
 When the installation is complete we can import *OpenCV* in our *python file* with:
-´import cv2´
+`import cv2`
